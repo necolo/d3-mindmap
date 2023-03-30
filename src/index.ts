@@ -30,7 +30,7 @@ export default function getRender(container: HTMLElement, options: Options = {})
   const colorSet = options.colorSet || ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'];
 
   // init the svg and tree
-  const svg = select('body').append('svg')
+  const svg = select(container).append('svg')
     .attr('width', '100%')
     .attr('height', '100%')
     .append('g');
