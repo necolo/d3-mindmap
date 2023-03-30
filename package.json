@@ -1,16 +1,14 @@
 {
   "name": "d3-mindmap",
   "version": "1.0.0",
-  "description": "",
+  "description": "generate mindmap from json",
   "main": "index.js",
   "scripts": {
     "test": "npx parcel --no-cache example/index.html"
   },
-  "author": "",
+  "author": "Necolo Lv.C",
   "license": "ISC",
   "dependencies": {
-    "@types/d3": "6.7",
-    "d3": "^6.7.0",
     "d3-hierarchy": "^2.0.0",
     "d3-scale": "^3.0.0",
     "d3-selection": "^2.0.0",
