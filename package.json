@@ -2,9 +2,9 @@
   "name": "d3-mindmap",
   "version": "1.0.0",
   "description": "generate mindmap from json",
-  "main": "index.js",
   "scripts": {
-    "test": "npx parcel --no-cache example/index.html"
+    "demo1": "parcel examples/demo1/index.html",
+    "demo1:build": "parcel build examples/demo1/index.html --dist-dir examples/demo1/dist"
   },
   "author": "Necolo Lv.C",
   "license": "ISC",
@@ -12,11 +12,14 @@
     "d3-hierarchy": "^2.0.0",
     "d3-scale": "^3.0.0",
     "d3-selection": "^2.0.0",
-    "d3-transition": "^3.0.1"
+    "d3-transition": "^3.0.1",
+    "d3-zoom": "^3.0.0"
   },
   "devDependencies": {
     "@types/d3-hierarchy": "^2.0.2",
     "@types/d3-scale": "^3.3.2",
-    "@types/d3-selection": "^2.0.1"
+    "@types/d3-selection": "^2.0.1",
+    "@types/d3-transition": "^3.0.3",
+    "parcel": "^2.8.3"
   }
 }

@@ -1,0 +1,37 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports" : true,
+    "allowJs": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "importHelpers": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "outDir": "lib"
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./__tests__"
+  ]
+}

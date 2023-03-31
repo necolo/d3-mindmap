@@ -14,29 +14,18 @@
       top: 0;
       width: 100%;
       height: 100%;
+      cursor: grab;
     }
-
-    .node circle {
-      cursor: pointer;
-      stroke: #fff;
-      stroke-width: 1.5px;
-    }
-
-    .node text {
-      font-size: 10px;
-      font-family: sans-serif;
-    }
-
-    .link {
-      fill: none;
-      stroke: #ccc;
-      stroke-width: 1.5px;
+    body:active {
+      cursor: grabbing;
     }
   </style>
 </head>
 
 <body>
-  <script type="module" src="./index.ts"></script>
+  <script type="module">
+    import './index.ts';
+  </script>
 </body>
 
 </html>
