@@ -4,7 +4,7 @@
   "description": "generate mindmap from json",
   "scripts": {
     "demo1": "parcel examples/demo1/index.html",
-    "demo1:build": "parcel build examples/demo1/index.html --dist-dir examples/demo1/dist"
+    "demo1:build": "parcel build examples/demo1/index.html --dist-dir examples/demo1/static"
   },
   "author": "Necolo Lv.C",
   "license": "ISC",

@@ -68,3 +68,4 @@ typings/
 # Build artifacts
 dist/
 .parcel-cache
+.DS_Store
