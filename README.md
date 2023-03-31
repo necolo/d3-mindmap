@@ -8,7 +8,7 @@ npm i d3-mindmap
 
 ## Usage
 
-```
+```javascript
 import getRender from 'd3-mindmap';
 
 const data = {
