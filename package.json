@@ -2,9 +2,21 @@
   "name": "d3-mindmap",
   "version": "1.0.0",
   "description": "generate mindmap from json",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "demo1": "parcel examples/demo1/index.html",
-    "demo1:build": "parcel build examples/demo1/index.html --dist-dir examples/demo1/static"
+    "demo1:build": "parcel build examples/demo1/index.html --dist-dir examples/demo1/static",
+    "build": "tsc"
+  },
+  "files": ["dist"],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necolo/d3-mindmap.git"
   },
   "author": "Necolo Lv.C",
   "license": "MIT",
