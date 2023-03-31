@@ -7,7 +7,7 @@
     "demo1:build": "parcel build examples/demo1/index.html --dist-dir examples/demo1/static"
   },
   "author": "Necolo Lv.C",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "d3-hierarchy": "^2.0.0",
     "d3-scale": "^3.0.0",

@@ -1,6 +1,10 @@
 # d3-mindmap
+A JavaScript library for generating mind maps using D3.js.
 
-## Install
+
+## Installation
+
+To install d3-mindmap, use the following command:
 
 ```
 npm i d3-mindmap
@@ -33,3 +37,7 @@ const data = {
 
 getRender(document.body)(data);
 ```
+Checkout a live demo of d3-mindmap [here](https://necolo.github.io/d3-mindmap/examples/demo1/)
+
+# License
+d3-mindmap is licensed under the MIT License.
