@@ -50,7 +50,6 @@ editorEl.addEventListener('input', debounce(
     try {
       const v = e.target.value;
       const json = JSON.parse(v);
-      console.log("🚀 ~ file: index.ts:53 ~ json:", json)
       value = json;
       render();
     } catch (e) {
