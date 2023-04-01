@@ -28,10 +28,14 @@
     "d3-zoom": "^3.0.0"
   },
   "devDependencies": {
+    "@codemirror/lang-javascript": "^6.1.4",
     "@types/d3-hierarchy": "^2.0.2",
     "@types/d3-scale": "^3.3.2",
     "@types/d3-selection": "^2.0.1",
     "@types/d3-transition": "^3.0.3",
-    "parcel": "^2.8.3"
+    "buffer": "^5.7.1",
+    "codemirror": "^6.0.1",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
   }
 }

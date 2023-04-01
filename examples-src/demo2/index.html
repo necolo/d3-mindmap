@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mind Map</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      position: fixed;
+      left: 0;
+      top: 0;
+      padding: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+    textarea:focus {
+      outline: none;
+    }
+    textarea::selection {
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      width: calc(100vw - 32px);
+      height: calc(100vh - 32px - 22px);
+      display: flex;
+    }
+
+    .bar {
+      display: flex;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+    .bar > *:not(:first-child) {
+      margin-left: 4px;
+    }
+
+    button {
+      height: 16px;
+      font-size: 12px;
+      line-height: 10px;
+    }
+
+    .editor {
+      flex: 1;
+      height: 100%;
+      overflow: scroll;
+      font-size: 10px;
+      border: 1px solid black;
+    }
+
+    .mindmap {
+      flex: 2;
+      height: 100%;
+      border: 1px solid black;
+      margin-left: 8px;
+      cursor: grab;
+    }
+    .mindmap:active {
+      cursor: grabbing;
+    }
+
+  </style>
+</head>
+
+<body>
+  <script type="module">
+    import './index.ts';
+  </script>
+</body>
+
+</html>
