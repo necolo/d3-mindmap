@@ -37,7 +37,7 @@ const data = {
 
 getRender(document.body)(data);
 ```
-Checkout a live demo of d3-mindmap [here](https://necolo.github.io/d3-mindmap/examples/demo1/)
+Checkout a live demo of d3-mindmap [here](https://necolo.github.io/d3-mindmap/examples/demo2/)
 
-# License
+## License
 d3-mindmap is licensed under the MIT License.
